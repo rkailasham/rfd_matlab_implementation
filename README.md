@@ -1,6 +1,7 @@
 # rfd_matlab_implementation
 MATLAB scripts to implement the random finite difference (RFD) method [1,2] for the calculation of divergence.
 
+28-APR-2022:
 
 "iv_compare_rfd_diffmat_divergence.m" compares the analytically known divergence of diffusion tensor for freely-draining chains against that calculated numerically using the RFD method. The analytical calculation of the divergence is based on recursive relations, as explained in the "Supplementary Material" section of the paper titled "Rouse model with fluctuating internal friction" [J. Rheol. 65, 903 (2021)]. The MATLAB codes needed for this purpose are all included in this directory, and also in the other repository "div_calc_continued_fractions".
 
@@ -8,11 +9,13 @@ For Rouse chains with hydrodynamic interactions (HI) only (no IV), the divergenc
 
 "hi_compare_rfd_diffmat_divergence.m" compares the numerically calculated divergence for chains with HI against this analytical result.
 
-"fene_iv_hi_arxiv_paper.pdf"
+The RFD method is used in the evaluation of the stress tensor for bead-spring-dashpot chains with fluctuating internal friction and hydrodynamic interactions, as described in detail in the preprint "fene_iv_hi_arxiv_paper.pdf".
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 References
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 [1] B. Sprinkle, F. Balboa Usabiaga, N. A. Patankar, and A. Donev, J. Chem. Phys. 147, 244103 (2017).
