@@ -50,9 +50,9 @@ end
 
 
 rfd_param=1e-5;
-% ntraj_list= [10 20 50 100 2e2 5e2 1e3 2e3 5e3 1e4];
+ntraj_list= [10 20 50 100 2e2 5e2 1e3 2e3 5e3 1e4];
 
-ntraj_list= [10 20 50];
+%ntraj_list= [10 20 50];
 
 
 
