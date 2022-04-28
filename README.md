@@ -9,7 +9,7 @@ For Rouse chains with hydrodynamic interactions (HI) only (no IV), the divergenc
 
 "hi_compare_rfd_diffmat_divergence.m" compares the numerically calculated divergence for chains with HI against this analytical result.
 
-The RFD method is used in the evaluation of the stress tensor for bead-spring-dashpot chains with fluctuating internal friction and hydrodynamic interactions, as described in detail in the preprint "fene_iv_hi_arxiv_paper.pdf".
+The RFD method is used in the evaluation of the stress tensor for bead-spring-dashpot chains with fluctuating internal friction and hydrodynamic interactions, as described in detail in the preprint "Shear viscosity for finitely extensible chains with fluctuating internal friction and hydrodynamic interactions" [3], a copy of which is saved in this repository as "fene_iv_hi_arxiv_paper.pdf".
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -21,3 +21,5 @@ References
 [1] B. Sprinkle, F. Balboa Usabiaga, N. A. Patankar, and A. Donev, J. Chem. Phys. 147, 244103 (2017).
 
 [2] B. Sprinkle, A. Donev, A. P. S. Bhalla, and N. Patankar, J. Chem. Phys. 150 (2019).
+
+[3] R. Kailasham, Rajarshi Chakrabarti, and J. Ravi Prakash, arXiv:2204.10656
